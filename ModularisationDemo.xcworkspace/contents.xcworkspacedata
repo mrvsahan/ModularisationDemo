@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SwiftUIModularisationDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Packages/Common">
+   </FileRef>
+   <FileRef
+      location = "group:Packages/DependencyKit">
+   </FileRef>
+   <FileRef
+      location = "group:TrackDetails">
+   </FileRef>
+   <FileRef
+      location = "group:Packages/SearchListDomain">
+   </FileRef>
+   <FileRef
+      location = "group:Packages/Tracking">
+   </FileRef>
+   <FileRef
+      location = "group:Packages/Network">
+   </FileRef>
+   <FileRef
+      location = "group:Packages/UIComponent">
+   </FileRef>
+</Workspace>

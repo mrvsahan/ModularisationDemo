@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AFCC3C86-A450-43FF-B94D-F07439941E70"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FE56D14-5334-4BA8-B879-CB0BF6DFA335"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadTracks(searchTerm:limit:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C61851BB-FF64-4319-9312-7453025C81C0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIModularisationDemo/TrackSearch/TrackSearchList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C61851BB-FF64-4319-9312-7453025C81C0 - c95990f1af8665b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUIModularisationDemo.TrackSearchList.body.getter : some"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "249">
+               </Location>
+               <Location
+                  uuid = "C61851BB-FF64-4319-9312-7453025C81C0 - 15fca7bfcafb9838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUIModularisationDemo.TrackUIModel) -&gt; UIComponent.DetailView in SwiftUIModularisationDemo.TrackSearchList.body.getter : some"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEBCBB6D-AE9D-492F-9A7C-04099DC45A9D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIModularisationDemo/TrackSearch/TrackSearchList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D114CAD-91CF-4417-9322-E08B00F1C2D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "loadTracks(searchTerm:limit:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D114CAD-91CF-4417-9322-E08B00F1C2D6 - f80c4abe9db02d52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "0D114CAD-91CF-4417-9322-E08B00F1C2D6 - 9d80cac6ebba28bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "190">
+               </Location>
+               <Location
+                  uuid = "0D114CAD-91CF-4417-9322-E08B00F1C2D6 - 4b68da9d12c831c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "159">
+               </Location>
+               <Location
+                  uuid = "0D114CAD-91CF-4417-9322-E08B00F1C2D6 - b119738e70eef5c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "258">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4389060F-5CF7-4EA7-97F1-A0817FDBEE93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "loadTracks(searchTerm:limit:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4389060F-5CF7-4EA7-97F1-A0817FDBEE93 - 4b68da9d12c83101"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "197">
+               </Location>
+               <Location
+                  uuid = "4389060F-5CF7-4EA7-97F1-A0817FDBEE93 - 46e5746351f8fae9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "62">
+               </Location>
+               <Location
+                  uuid = "4389060F-5CF7-4EA7-97F1-A0817FDBEE93 - b119738e70eef507"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "4389060F-5CF7-4EA7-97F1-A0817FDBEE93 - 5ae2440007f21b06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SwiftUIModularisationDemo.TrackSearchViewModel.loadTracks(searchTerm: Swift.String, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SwiftUIModularisationDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prajaktaaher/Documents/PracticeProjects/MeetupDemo/ModularisationDemo/SwiftUIModularisationDemo/TrackSearch/TrackSearchListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5D04BAC-CFBA-49FE-A896-9D71060F9E24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Packages/Network/Sources/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetch(_:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDA882BA-A09D-4D5C-BF95-6BEEF70CB2BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Packages/Network/Sources/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetch(_:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6FF38B8-5281-4AF3-8AFF-ADADE84EF3B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Packages/Network/Sources/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetch(_:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
