@@ -25,7 +25,6 @@ struct SwiftUIModularisationDemoApp: App {
     
     private func getRootView() -> some View {
         VStack {
-//            AnyView(erasing: ModuleInitializer.shared.searchList.makeScreen(route: .list))
             AnyView(erasing: DependencyManager.shared.get(SearchListInterface.self)!.makeScreen())
         }
     }

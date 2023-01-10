@@ -7,8 +7,9 @@
 
 import Foundation
 import SwiftUI
+import Common
 
 public protocol TrackDetailsInterface {
     associatedtype V: View
-    func makeScreen() -> V
+    @ViewBuilder func makeScreen(with track: TrackUIModel) -> V
 }

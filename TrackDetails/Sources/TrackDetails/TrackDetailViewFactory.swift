@@ -7,18 +7,18 @@
 
 import SwiftUI
 import TrackDetailsInterface
+import Common
 
 public struct TrackDetailViewFactory: TrackDetailsInterface {
-    @Environment(\.trackDetailList) var track
-
+//    @Environment(\.trackDetailList) var track: TrackUIModel?
     public init() {}
 
-    private func makeTrackDetailScreen() -> some View {
+    private func makeTrackDetailScreen(with track: TrackUIModel) -> some View {
         let viewModel = TrackDetailViewModel(track: track)
         return TrackDetailScreen(viewModel: viewModel)
     }
 
-    public func makeScreen() -> some View {
-        makeTrackDetailScreen()
+    @ViewBuilder public func makeScreen(with track: TrackUIModel) -> some View {
+        makeTrackDetailScreen(with: track)
     }
 }
