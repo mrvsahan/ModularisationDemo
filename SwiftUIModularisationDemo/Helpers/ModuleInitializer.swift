@@ -12,8 +12,7 @@ import TrackDetails
 import TrackDetailsInterface
 import SearchListDomainInterface
 
-@objcMembers
-class ModuleInitializer: NSObject {
+class ModuleInitializer {
     
     static let shared = ModuleInitializer()
     

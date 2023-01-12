@@ -5,8 +5,6 @@
 //  Created by Merve Sahan on 20.02.2022.
 //
 
-import SwiftUI
-
 public class DependencyManager {
     public static let shared = DependencyManager()
 
