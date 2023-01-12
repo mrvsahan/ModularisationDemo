@@ -18,6 +18,7 @@
 		013113E929587B2B00B4FFCE /* SwiftUIModularisationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013113E829587B2B00B4FFCE /* SwiftUIModularisationDemoUITests.swift */; };
 		013113EB29587B2B00B4FFCE /* SwiftUIModularisationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013113EA29587B2B00B4FFCE /* SwiftUIModularisationDemoUITestsLaunchTests.swift */; };
 		014BC24829587C0900578340 /* SearchListDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 014BC24729587C0900578340 /* SearchListDomain */; };
+		8B54382329706B84004B775B /* Tracker in Frameworks */ = {isa = PBXBuildFile; productRef = 8B54382229706B84004B775B /* Tracker */; };
 		8B67F6FF296C4BDA00CBECC7 /* UIComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 8B67F6FE296C4BDA00CBECC7 /* UIComponent */; };
 		8B67F701296C4BE000CBECC7 /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B67F700296C4BE000CBECC7 /* DependencyKit */; };
 		8B67F703296C51F200CBECC7 /* TrackDetailsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B67F702296C51F200CBECC7 /* TrackDetailsInterface */; };
@@ -61,6 +62,7 @@
 				0128CB7E296B359600C7A35B /* SearchListUI in Frameworks */,
 				8B67F703296C51F200CBECC7 /* TrackDetailsInterface in Frameworks */,
 				014BC24829587C0900578340 /* SearchListDomain in Frameworks */,
+				8B54382329706B84004B775B /* Tracker in Frameworks */,
 				8B67F701296C4BE000CBECC7 /* DependencyKit in Frameworks */,
 				0128CB80296B359D00C7A35B /* SearchListDomainInterface in Frameworks */,
 				8B67F6FF296C4BDA00CBECC7 /* UIComponent in Frameworks */,
@@ -181,6 +183,7 @@
 				8B67F6FE296C4BDA00CBECC7 /* UIComponent */,
 				8B67F700296C4BE000CBECC7 /* DependencyKit */,
 				8B67F702296C51F200CBECC7 /* TrackDetailsInterface */,
+				8B54382229706B84004B775B /* Tracker */,
 			);
 			productName = SwiftUIModularisationDemo;
 			productReference = 013113CA29587B2800B4FFCE /* SwiftUIModularisationDemo.app */;
@@ -254,6 +257,9 @@
 				Base,
 			);
 			mainGroup = 013113C129587B2800B4FFCE;
+			packageReferences = (
+				8B54382129706B84004B775B /* XCRemoteSwiftPackageReference "Tracker" */,
+			);
 			productRefGroup = 013113CB29587B2800B4FFCE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -621,6 +627,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		8B54382129706B84004B775B /* XCRemoteSwiftPackageReference "Tracker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mrvsahan/Tracker.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		0128CB78296B32A200C7A35B /* TrackDetails */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -637,6 +654,11 @@
 		014BC24729587C0900578340 /* SearchListDomain */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SearchListDomain;
+		};
+		8B54382229706B84004B775B /* Tracker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B54382129706B84004B775B /* XCRemoteSwiftPackageReference "Tracker" */;
+			productName = Tracker;
 		};
 		8B67F6FE296C4BDA00CBECC7 /* UIComponent */ = {
 			isa = XCSwiftPackageProductDependency;

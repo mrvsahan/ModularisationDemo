@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SearchListDomain",
+    name: "SearchListFeature",
     platforms: [ .iOS(.v14) ],
     products: [
         .library(
@@ -18,6 +18,7 @@ let package = Package(
             targets: ["SearchListUI"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/mrvsahan/Tracker.git", .upToNextMajor(from: "0.0.0")),
         .package(path: "../Network"),
         .package(path: "../UIComponent"),
         .package(path: "../DependencyKit"),
@@ -40,7 +41,7 @@ let package = Package(
                 "UIComponent",
                 "DependencyKit",
                 "SearchListDomain",
-                "Common"
+                "Common", "Tracker"
             ]),
         .testTarget(
             name: "SearchListDomainTests",

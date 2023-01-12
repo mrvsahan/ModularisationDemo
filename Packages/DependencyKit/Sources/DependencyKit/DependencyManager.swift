@@ -8,8 +8,9 @@
 import SwiftUI
 
 public class DependencyManager {
-    private var modules = [String: Any]()
     public static let shared = DependencyManager()
+
+    private var modules = [String: Any]()
 
     public init() { }
 

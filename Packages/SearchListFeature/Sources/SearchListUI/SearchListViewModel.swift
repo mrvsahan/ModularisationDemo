@@ -9,6 +9,7 @@ import Foundation
 import SearchListDomainInterface
 import DependencyKit
 import Common
+import Tracker
 
 protocol SearchViewModelProtocol: ObservableObject {
     var tracks: [TrackUIModel] { get set }
