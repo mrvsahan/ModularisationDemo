@@ -17,9 +17,6 @@
       location = "group:Packages/SearchListDomain">
    </FileRef>
    <FileRef
-      location = "group:Packages/Tracking">
-   </FileRef>
-   <FileRef
       location = "group:Packages/Network">
    </FileRef>
    <FileRef

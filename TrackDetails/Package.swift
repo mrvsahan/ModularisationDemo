@@ -13,6 +13,7 @@ let package = Package(
             targets: ["TrackDetails"]),
 
         .library(name: "TrackDetailsInterface",
+                 type: .static,
                  targets: ["TrackDetailsInterface"]),
     ],
     dependencies: [

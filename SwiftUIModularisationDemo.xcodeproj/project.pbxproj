@@ -18,7 +18,6 @@
 		013113E929587B2B00B4FFCE /* SwiftUIModularisationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013113E829587B2B00B4FFCE /* SwiftUIModularisationDemoUITests.swift */; };
 		013113EB29587B2B00B4FFCE /* SwiftUIModularisationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013113EA29587B2B00B4FFCE /* SwiftUIModularisationDemoUITestsLaunchTests.swift */; };
 		014BC24829587C0900578340 /* SearchListDomain in Frameworks */ = {isa = PBXBuildFile; productRef = 014BC24729587C0900578340 /* SearchListDomain */; };
-		014BC24A29587C0900578340 /* Tracking in Frameworks */ = {isa = PBXBuildFile; productRef = 014BC24929587C0900578340 /* Tracking */; };
 		8B67F6FF296C4BDA00CBECC7 /* UIComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 8B67F6FE296C4BDA00CBECC7 /* UIComponent */; };
 		8B67F701296C4BE000CBECC7 /* DependencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8B67F700296C4BE000CBECC7 /* DependencyKit */; };
 		8B67F703296C51F200CBECC7 /* TrackDetailsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B67F702296C51F200CBECC7 /* TrackDetailsInterface */; };
@@ -64,7 +63,6 @@
 				014BC24829587C0900578340 /* SearchListDomain in Frameworks */,
 				8B67F701296C4BE000CBECC7 /* DependencyKit in Frameworks */,
 				0128CB80296B359D00C7A35B /* SearchListDomainInterface in Frameworks */,
-				014BC24A29587C0900578340 /* Tracking in Frameworks */,
 				8B67F6FF296C4BDA00CBECC7 /* UIComponent in Frameworks */,
 				0128CB79296B32A200C7A35B /* TrackDetails in Frameworks */,
 			);
@@ -177,7 +175,6 @@
 			name = SwiftUIModularisationDemo;
 			packageProductDependencies = (
 				014BC24729587C0900578340 /* SearchListDomain */,
-				014BC24929587C0900578340 /* Tracking */,
 				0128CB78296B32A200C7A35B /* TrackDetails */,
 				0128CB7D296B359600C7A35B /* SearchListUI */,
 				0128CB7F296B359D00C7A35B /* SearchListDomainInterface */,
@@ -640,10 +637,6 @@
 		014BC24729587C0900578340 /* SearchListDomain */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SearchListDomain;
-		};
-		014BC24929587C0900578340 /* Tracking */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Tracking;
 		};
 		8B67F6FE296C4BDA00CBECC7 /* UIComponent */ = {
 			isa = XCSwiftPackageProductDependency;
