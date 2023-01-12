@@ -40,11 +40,9 @@ public struct TrackDetail: EnvironmentKey {
 extension EnvironmentValues {
     public var trackDetailList: TrackUIModel? {
         get {
-            print("Track:", self[TrackDetail.self])
             return self[TrackDetail.self]
         }
         set {
-            print("TrackSet:", newValue)
             return self[TrackDetail.self] = newValue
         }
     }

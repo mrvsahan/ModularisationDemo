@@ -12,6 +12,6 @@ public enum Event {
     case buttonClicked
 }
 
-public protocol TrackingProtocol {
+public protocol TrackingInterface {
     func track(event: Event, properties: [String: AnyObject])
 }
