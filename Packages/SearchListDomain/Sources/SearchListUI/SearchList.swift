@@ -48,20 +48,6 @@ extension SearchList: DetailViewDelegate {
     }
 }
 
-//struct TrackSearchList_Previews: PreviewProvider {
-//    static var tracks: [TrackUIModel] {
-//        return [TrackUIModel(trackID: UUID(),
-//                             trackCensoredName: "Track 1",
-//                             artist: "Test Artist",
-//                             previewUrl: "",
-//                             trackImage: "https://is4-ssl.mzstatic.com/image/thumb/Video125/v4/21/0b/4a/210b4a1c-0de6-3a03-27a5-408948f7f173/pr_source.lsr/30x30bb.jpg")]
-//    }
-//
-//    static var previews: some View {
-//        TrackSearchList(viewModel: MockViewModel(tracks: Self.tracks), router: <#RoutingManager#>)
-//    }
-//}
-
 class MockViewModel: SearchViewModelProtocol {
     @Published var tracks: [TrackUIModel]
     

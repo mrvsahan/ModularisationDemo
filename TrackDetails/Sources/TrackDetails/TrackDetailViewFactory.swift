@@ -10,7 +10,6 @@ import TrackDetailsInterface
 import Common
 
 public struct TrackDetailViewFactory: TrackDetailsInterface {
-//    @Environment(\.trackDetailList) var track: TrackUIModel?
     public init() {}
 
     private func makeTrackDetailScreen(with track: TrackUIModel) -> some View {
