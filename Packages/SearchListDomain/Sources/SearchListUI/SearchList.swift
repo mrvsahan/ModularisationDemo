@@ -11,16 +11,6 @@ import DependencyKit
 import TrackDetailsInterface
 import Common
 
-
-
-final class AnyTest {
-    @ViewBuilder private(set) var view: some View
-
-    init<koray: View>(view: koray) {
-        self.view = view
-    }
-}
-
 struct SearchList<ViewModel>: View where ViewModel: SearchViewModelProtocol {
     @ObservedObject var viewModel: ViewModel
     @State var isShowingDetail: Bool = false
@@ -34,9 +24,7 @@ struct SearchList<ViewModel>: View where ViewModel: SearchViewModelProtocol {
         NavigationView {
             List(viewModel.tracks, id: \.trackID) { track in
                 NavigationLink(isActive: $isShowingDetail) {
-//                    AnyView(erasing: DependencyManager.shared.get(TrackDetailsInterface.self)!.makeScreen(with: track))
-                    AnyTest(view: DependencyManager.shared.get(TrackDetailsInterface.self)!.makeScreen(with: track)).view
-
+                    AnyView(erasing: DependencyManager.shared.get(TrackDetailsInterface.self)!.makeScreen(with: track))
                 } label: {
                     DetailView(title: track.trackCensoredName,
                                subTitle: track.artist,

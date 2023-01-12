@@ -29,6 +29,6 @@ let package = Package(
                            "Common"]),
         .target(
             name: "TrackDetailsInterface",
-            dependencies: []),
+            dependencies: ["Common"]),
     ]
 )
